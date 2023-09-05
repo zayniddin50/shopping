@@ -359,6 +359,7 @@
 }
 
 .home-link {
+  font-size: 13px;
   color: #474747;
 }
 
@@ -659,6 +660,7 @@
   text-decoration: none;
   color: #474747;
   margin-right: 20px;
+  font-size: 12px;
 }
 
 .home-about:hover {
@@ -668,6 +670,10 @@
 
 .home-contact {
   padding: 20px 0;
+}
+
+.nature {
+  font-size: 13px;
 }
 
 .home-text {
@@ -700,6 +706,11 @@
 
 .Nike {
   margin-right: 20px;
+  font-size: 13px;
+}
+
+.span-teglari {
+  font-size: 13px;
 }
 
 @media screen and (max-width: 1315px) {
@@ -760,6 +771,7 @@
     justify-content: center;
     margin-top: 20px;
     gap: 20px;
+    width: 95%;
   }
 }
 @media screen and (max-width: 1315px) and (max-width: 1230px) and (max-width: 850px) {
@@ -887,7 +899,7 @@
     height: 50px;
   }
   .span-teglari {
-    font-size: 20px;
+    font-size: 16px;
   }
   .soya {
     display: none;
@@ -1004,7 +1016,7 @@
   }
   .opshi {
     display: flex;
-    padding: 0 20px;
+    text-align: center;
   }
   .lorem-text-wrap {
     font-size: 10px;
@@ -1017,6 +1029,14 @@
   }
   .data {
     display: none;
+  }
+  .rem {
+    display: flex;
+    justify-content: center;
+  }
+  .wrap-son {
+    display: flex;
+    justify-content: center;
   }
 }
 @media screen and (max-width: 603px) {

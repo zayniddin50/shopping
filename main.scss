@@ -82,6 +82,7 @@ padding: 0 10px;
 .header_nike{
     width: 220px;
     padding: 10px 0;
+  
 }
 .main_text{
     width: 325px;
@@ -311,7 +312,7 @@ margin-top: 20px;
      margin-right: 20px;
 }
 .home-link {
-  
+  font-size: 13px;
  color: #474747;
 }
 .home-link:hover{
@@ -572,6 +573,7 @@ text-decoration: line-through;
  text-decoration: none;
  color: #474747;
  margin-right: 20px;
+font-size: 12px;
  }
  .home-about:hover{
  color: #C92071;
@@ -579,6 +581,9 @@ text-decoration: line-through;
  }
  .home-contact{
     padding: 20px 0;
+ }
+ .nature{
+    font-size: 13px;
  } 
  .home-text{
     display: flex;
@@ -606,6 +611,10 @@ text-decoration: line-through;
  }
  .Nike{
   margin-right: 20px;
+  font-size: 13px;
+ }
+ .span-teglari{
+    font-size: 13px;
  }
 @media screen and (max-width:1315px) {
    .header_input_ikonka{
@@ -670,7 +679,8 @@ text-decoration: line-through;
      justify-content: center;
      margin-top: 20px;
      gap: 20px;
-        
+       width:95%; 
+       
     }
     @media screen and (max-width:850px) {
         .main_wrap-icon{
@@ -805,7 +815,7 @@ text-decoration: line-through;
         height: 50px;
     }
     .span-teglari{
-        font-size: 20px;
+        font-size: 16px;
     }
     .soya{
         display: none;
@@ -927,7 +937,7 @@ font-size: 13px;
     }
     .opshi{
         display: flex;
-        padding: 0 20px;
+        text-align: center;
     }
      .lorem-text-wrap{
          font-size: 10px;
@@ -940,7 +950,15 @@ font-size: 13px;
      }
     .data{
        display: none; 
-    }
+    }  .rem{
+        display: flex;
+        justify-content: center;
+      }
+      .wrap-son {
+        display: flex;
+        justify-content: center;
+      }
+    
      
    
 }
